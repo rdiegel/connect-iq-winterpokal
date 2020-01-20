@@ -1,19 +1,20 @@
-using Toybox.WatchUi;
 using Toybox.Time;
-using Toybox.Application;
+using Toybox.UserProfile;
+using Toybox.WatchUi;
 
 class WinterpokalView extends WatchUi.SimpleDataField {
 
-	protected var itsWinterpokalTime = false;
 	protected var minutesPerPoint = 15;
+	protected var isAlternativeSport = false;
+	protected var itsWinterpokalTime = true;
 
-    // Set the label of the data field here.
+    // Set the label of the data field and initialize basic options
     function initialize() {
         SimpleDataField.initialize();
       
         label = WatchUi.loadResource(Rez.Strings.FieldTitle);
- 	 	self.minutesPerPoint = getMinutesPerPoint();
-        self.itsWinterpokalTime = checkWinterpokalTime();
+ 	 	initMinutesPerPoint();
+        checkWinterpokalTime();
     }
 
     // The given info object contains all the current workout
@@ -24,10 +25,14 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 		if (self.itsWinterpokalTime)
 		{
 			if (info.elapsedTime > 0) {
-				var minutes = info.elapsedTime / 60000;
-				var wpPoints = minutes / self.minutesPerPoint;
-				
-				return wpPoints;
+				if (self.isAlternativeSport) {
+					return 2;
+				} else {
+					var minutes = info.elapsedTime / 60000;
+					var wpPoints = minutes / self.minutesPerPoint;
+					
+					return wpPoints;
+				}
 			}
 	        return "-";
         }  else {
@@ -44,16 +49,38 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 		var endDate = new Time.Moment(1585519199); // 29.03.2020 23:59:59
 
 		if (today.greaterThan(startDate) && today.lessThan(endDate)) {
- 	 		return true;
+ 	 		self.itsWinterpokalTime = true;
  	 	} else {
- 	 		return false;
+ 	 		self.itsWinterpokalTime = false;
  	 	}
  	 }
  	 
- 	 // Load the minutes that are necessary for 1 point
- 	 function getMinutesPerPoint() {
- 	 	// Check activity type
- 	 	return 15;
- 	 }
-
+ 	 // Load the minutes that are necessary for 1 point depending on sports
+ 	 function initMinutesPerPoint() {
+ 	 	var sport = UserProfile.getCurrentSport();
+ 	 	
+ 	 	switch (sport) {
+ 	 		case UserProfile.HR_ZONE_SPORT_RUNNING: 
+ 	 			// Running: 20 mins / point
+ 	 			setMinutesPerPoint(20);
+ 	 			setIsAlternativeSport(false);
+ 	 			break;
+ 	 		case UserProfile.HR_ZONE_SPORT_BIKING:
+ 	 			// Cycling: 15 mins / point
+ 	 			setMinutesPerPoint(15);
+ 	 			setIsAlternativeSport(false);
+ 	 			break;
+ 	 		default:
+ 	 			// All other sports are woth 2 points 
+ 	 			setIsAlternativeSport(true);
+ 	 	}
+  	 }
+  	 
+  	 function setIsAlternativeSport(_isAlternativeSport) {
+  	 	self.isAlternativeSport = _isAlternativeSport;
+  	 }
+  	 
+  	 function setMinutesPerPoint(_minutesPerPoint) {
+  	 	self.minutesPerPoint = _minutesPerPoint;
+  	 }
 }
