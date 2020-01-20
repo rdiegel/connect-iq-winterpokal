@@ -1,0 +1,7 @@
+<resources>
+    <properties>
+    	<property id="AppName" type="string">@Strings.AppName</property>
+    	<property id="FieldTitle" type="boolean">@Strings.FieldTitle</property>
+        <property id="NotWpTime" type="boolean">@Strings.NotWpTime</property>
+    </properties>
+</resources>
