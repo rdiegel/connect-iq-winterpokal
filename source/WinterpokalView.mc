@@ -1,5 +1,6 @@
 using Toybox.WatchUi;
 using Toybox.Time;
+using Toybox.Application;
 
 class WinterpokalView extends WatchUi.SimpleDataField {
 
@@ -9,8 +10,8 @@ class WinterpokalView extends WatchUi.SimpleDataField {
     // Set the label of the data field here.
     function initialize() {
         SimpleDataField.initialize();
-        label = "WP Points";
-        
+      
+        label = WatchUi.loadResource(Rez.Strings.FieldTitle);
  	 	self.minutesPerPoint = getMinutesPerPoint();
         self.itsWinterpokalTime = checkWinterpokalTime();
     }
@@ -30,7 +31,7 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 			}
 	        return "-";
         }  else {
-        	return "Summertime!";
+        	return WatchUi.loadResource(Rez.Strings.NotWpTime);
         }
         
  	 }

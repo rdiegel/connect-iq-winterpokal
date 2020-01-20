@@ -1,85 +1,260 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="3" lineNum="10" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="3" lineNum="11" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="3" lineNum="12" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="3" lineNum="14" pc="268435491" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="3" lineNum="15" pc="268435510" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="22" pc="268435530" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="23" pc="268435534" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="25" pc="268435545" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="26" pc="268435562" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="27" pc="268435578" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="29" pc="268435591" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="31" pc="268435597" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="4" lineNum="33" pc="268435606" symbol="compute"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="39" pc="268435613" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="41" pc="268435617" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="42" pc="268435669" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="43" pc="268435702" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="45" pc="268435735" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="46" pc="268435770" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="5" lineNum="48" pc="268435776" symbol="checkWinterpokalTime"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="6" lineNum="53" pc="268435780" symbol="getMinutesPerPoint"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalView.mc" id="6" lineNum="55" pc="268435784" symbol="getMinutesPerPoint"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="8" lineNum="5" pc="268435791" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="8" lineNum="6" pc="268435795" symbol="initialize"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="9" lineNum="10" pc="268435814" symbol="onStart"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="10" lineNum="14" pc="268435819" symbol="onStop"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="11" lineNum="18" pc="268435824" symbol="getInitialView"/>
-<entry filename="C:\\dev\\iq\\repository\\Winterpokal\\source\\WinterpokalApp.mc" id="11" lineNum="19" pc="268435828" symbol="getInitialView"/>
+<entry filename="UnitTests" id="2" lineNum="3" pc="268435456" symbol="getTestObject"/>
+<entry filename="UnitTests" id="2" lineNum="4" pc="268435468" symbol="getTestObject"/>
+<entry filename="UnitTests" id="4" lineNum="9" pc="268435492" symbol="initialize"/>
+<entry filename="UnitTests" id="4" lineNum="10" pc="268435496" symbol="initialize"/>
+<entry filename="UnitTests" id="4" lineNum="11" pc="268435518" symbol="initialize"/>
+<entry filename="UnitTests" id="4" lineNum="12" pc="268435532" symbol="initialize"/>
+<entry filename="UnitTests" id="5" lineNum="14" pc="268435545" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="15" pc="268435549" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="16" pc="268435566" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="18" pc="268435589" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="19" pc="268435608" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="20" pc="268435623" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="21" pc="268435648" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="5" lineNum="24" pc="268435667" symbol="getIndexOf"/>
+<entry filename="UnitTests" id="6" lineNum="26" pc="268435674" symbol="getTestName"/>
+<entry filename="UnitTests" id="6" lineNum="27" pc="268435678" symbol="getTestName"/>
+<entry filename="UnitTests" id="7" lineNum="29" pc="268435691" symbol="getNumberOfTests"/>
+<entry filename="UnitTests" id="7" lineNum="30" pc="268435695" symbol="getNumberOfTests"/>
+<entry filename="UnitTests" id="8" lineNum="32" pc="268435714" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="33" pc="268435718" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="34" pc="268435737" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="35" pc="268435756" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="36" pc="268435775" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="37" pc="268435794" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="8" lineNum="38" pc="268435813" symbol="populate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="40" pc="268435833" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="41" pc="268435837" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="42" pc="268435841" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="43" pc="268435852" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="45" pc="268435880" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="46" pc="268435891" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="48" pc="268435919" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="49" pc="268435930" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="51" pc="268435958" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="52" pc="268435969" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="54" pc="268435997" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="55" pc="268436008" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="57" pc="268436036" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="58" pc="268436047" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="9" lineNum="60" pc="268436075" symbol="evaluate_test_entries_0_to_6"/>
+<entry filename="UnitTests" id="10" lineNum="62" pc="268436079" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="63" pc="268436083" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="64" pc="268436087" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="65" pc="268436105" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="67" pc="268436123" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="68" pc="268436157" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="69" pc="268436161" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="70" pc="268436172" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="72" pc="268436198" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="73" pc="268436212" symbol="runTest"/>
+<entry filename="UnitTests" id="10" lineNum="75" pc="268436218" symbol="runTest"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="12" lineNum="11" pc="268436222" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="12" lineNum="12" pc="268436226" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="12" lineNum="14" pc="268436244" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="12" lineNum="15" pc="268436287" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="12" lineNum="16" pc="268436306" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="23" pc="268436326" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="24" pc="268436330" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="26" pc="268436341" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="27" pc="268436358" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="28" pc="268436374" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="30" pc="268436387" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="32" pc="268436393" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="13" lineNum="34" pc="268436402" symbol="compute"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="40" pc="268436439" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="42" pc="268436443" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="43" pc="268436495" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="44" pc="268436528" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="46" pc="268436561" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="47" pc="268436596" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="14" lineNum="49" pc="268436602" symbol="checkWinterpokalTime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="15" lineNum="54" pc="268436606" symbol="getMinutesPerPoint"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalView.mc" id="15" lineNum="56" pc="268436610" symbol="getMinutesPerPoint"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="17" lineNum="9" pc="268436617" symbol="compute_CurrentDateBeforeWpTime_ExpectsSummertime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="17" lineNum="11" pc="268436621" symbol="compute_CurrentDateBeforeWpTime_ExpectsSummertime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="18" lineNum="15" pc="268436625" symbol="compute_CurrentDateAfterWpTime_ExpectsSummertime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="18" lineNum="17" pc="268436629" symbol="compute_CurrentDateAfterWpTime_ExpectsSummertime"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="21" pc="268436633" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="22" pc="268436637" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="23" pc="268436661" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="25" pc="268436673" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="26" pc="268436703" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="27" pc="268436716" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="28" pc="268436731" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="19" lineNum="29" pc="268436754" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="33" pc="268436758" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="34" pc="268436762" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="35" pc="268436786" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="37" pc="268436798" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="38" pc="268436828" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="39" pc="268436841" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="40" pc="268436856" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="20" lineNum="41" pc="268436879" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="45" pc="268436883" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="46" pc="268436887" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="47" pc="268436911" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="49" pc="268436923" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="50" pc="268436953" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="51" pc="268436966" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="52" pc="268436981" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="21" lineNum="53" pc="268437004" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="57" pc="268437008" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="58" pc="268437012" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="59" pc="268437036" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="61" pc="268437048" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="62" pc="268437078" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="63" pc="268437091" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="64" pc="268437106" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\tests\\WinterpokalViewTest.mc" id="22" lineNum="65" pc="268437129" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="24" lineNum="5" pc="268437136" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="24" lineNum="6" pc="268437140" symbol="initialize"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="25" lineNum="10" pc="268437159" symbol="onStart"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="26" lineNum="14" pc="268437164" symbol="onStop"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="27" lineNum="18" pc="268437169" symbol="getInitialView"/>
+<entry filename="C:\\dev\\github\\connect-iq-winterpokal\\source\\WinterpokalApp.mc" id="27" lineNum="19" pc="268437173" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="16" symbol="minutesPerPoint"/>
+<entry id="27" method="true" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<entry field="true" id="31" symbol="minutesPerPoint"/>
+<entry id="9" object="true" symbol="RunNoEvil"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8389567" method="true" symbol="getNumberOfTests"/>
 <entry id="8388645" module="true" symbol="Time"/>
+<entry id="8389570" method="true" symbol="getTestObject"/>
+<entry id="8389823" method="true" symbol="indexOf"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="17" method="true" symbol="checkWinterpokalTime"/>
+<entry id="24" method="true" symbol="compute_CurrentDateBeforeWpTime_ExpectsSummertime"/>
+<entry id="32" method="true" symbol="checkWinterpokalTime"/>
+<entry id="25" method="true" symbol="compute_CurrentDateAfterWpTime_ExpectsSummertime"/>
+<entry field="true" id="13" symbol="logger"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="9" object="true" symbol="WinterpokalView"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="10" object="true" symbol="WinterpokalView"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="10" object="true" symbol="WinterpokalApp"/>
-<entry field="true" id="15" symbol="itsWinterpokalTime"/>
+<entry id="12" object="true" symbol="WinterpokalApp"/>
+<entry id="8388649" module="true" object="true" symbol="Test"/>
+<entry field="true" id="30" symbol="itsWinterpokalTime"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="14" symbol="AppName"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="22" symbol="AppName"/>
+<entry id="16" method="true" symbol="populate_test_entries_0_to_6"/>
+<entry field="true" id="21" symbol="FieldTitle"/>
+<entry field="true" id="20" symbol="LauncherIcon"/>
+<entry id="17" method="true" symbol="evaluate_test_entries_0_to_6"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="23" symbol="NotWpTime"/>
 <entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389568" method="true" symbol="runTest"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389137" method="true" symbol="compute"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="18" method="true" symbol="getMinutesPerPoint"/>
-<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389792" method="true" symbol="getTestName"/>
+<entry id="33" method="true" symbol="getMinutesPerPoint"/>
+<entry id="18" module="true" symbol="Layouts"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="12" module="true" symbol="Menus"/>
+<entry id="26" method="true" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<entry id="11" object="true" symbol="WinterpokalViewTest"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry id="15" method="true" symbol="getIndexOf"/>
+<entry id="28" method="true" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="14" symbol="idToName"/>
 <entry id="8388635" module="true" symbol="Application"/>
+<entry id="29" method="true" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435594" name="minutes" stackId="2" startPc="268435562"/>
-<entry endPc="268435594" name="wpPoints" stackId="3" startPc="268435562"/>
-<entry endPc="268435613" name="info" stackId="1" startPc="268435530"/>
-<entry endPc="268435779" name="startDate" stackId="2" startPc="268435617"/>
-<entry endPc="268435779" name="today" stackId="1" startPc="268435617"/>
-<entry endPc="268435779" name="endDate" stackId="3" startPc="268435617"/>
-<entry endPc="268435819" name="state" stackId="1" startPc="268435814"/>
-<entry endPc="268435824" name="state" stackId="1" startPc="268435819"/>
+<entry endPc="268435667" name="i" stackId="3" startPc="268435623"/>
+<entry endPc="268435673" name="j" stackId="2" startPc="268435549"/>
+<entry endPc="268435674" name="name" stackId="1" startPc="268435545"/>
+<entry endPc="268435691" name="id" stackId="1" startPc="268435674"/>
+<entry endPc="268436078" name="result" stackId="3" startPc="268435837"/>
+<entry endPc="268436079" name="logger" stackId="2" startPc="268435833"/>
+<entry endPc="268436079" name="id" stackId="1" startPc="268435833"/>
+<entry endPc="268436221" name="result" stackId="3" startPc="268436083"/>
+<entry endPc="268436221" name="id" stackId="2" startPc="268436083"/>
+<entry endPc="268436222" name="test" stackId="1" startPc="268436079"/>
+<entry endPc="268436390" name="minutes" stackId="2" startPc="268436358"/>
+<entry endPc="268436390" name="wpPoints" stackId="3" startPc="268436358"/>
+<entry endPc="268436439" name="info" stackId="1" startPc="268436326"/>
+<entry endPc="268436605" name="startDate" stackId="2" startPc="268436443"/>
+<entry endPc="268436605" name="today" stackId="1" startPc="268436443"/>
+<entry endPc="268436605" name="endDate" stackId="3" startPc="268436443"/>
+<entry endPc="268436625" name="logger" stackId="1" startPc="268436617"/>
+<entry endPc="268436633" name="logger" stackId="1" startPc="268436625"/>
+<entry endPc="268436757" name="result" stackId="4" startPc="268436637"/>
+<entry endPc="268436757" name="testActivity" stackId="3" startPc="268436637"/>
+<entry endPc="268436757" name="subject" stackId="2" startPc="268436637"/>
+<entry endPc="268436758" name="logger" stackId="1" startPc="268436633"/>
+<entry endPc="268436882" name="result" stackId="4" startPc="268436762"/>
+<entry endPc="268436882" name="testActivity" stackId="3" startPc="268436762"/>
+<entry endPc="268436882" name="subject" stackId="2" startPc="268436762"/>
+<entry endPc="268436883" name="logger" stackId="1" startPc="268436758"/>
+<entry endPc="268437007" name="result" stackId="4" startPc="268436887"/>
+<entry endPc="268437007" name="testActivity" stackId="3" startPc="268436887"/>
+<entry endPc="268437007" name="subject" stackId="2" startPc="268436887"/>
+<entry endPc="268437008" name="logger" stackId="1" startPc="268436883"/>
+<entry endPc="268437132" name="result" stackId="4" startPc="268437012"/>
+<entry endPc="268437132" name="testActivity" stackId="3" startPc="268437012"/>
+<entry endPc="268437132" name="subject" stackId="2" startPc="268437012"/>
+<entry endPc="268437133" name="logger" stackId="1" startPc="268437008"/>
+<entry endPc="268437164" name="state" stackId="1" startPc="268437159"/>
+<entry endPc="268437169" name="state" stackId="1" startPc="268437164"/>
 </localVars>
-<annotations/>
+<annotations>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_CurrentDateBeforeWpTime_ExpectsSummertime"/>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_CurrentDateAfterWpTime_ExpectsSummertime"/>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_ElapsedTimeIsNullOrZero_ExpectsDash"/>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_ElapsedTimeIs15Minutes_Expects1Point"/>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_ElapsedTimeIs120Minutes_Expects8Points"/>
+<annotationEntry annotation="test" class="WinterpokalViewTest" module="globals" symbol="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points"/>
+</annotations>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="166" parentId="globals" symbolId="WinterpokalApp" type="class"/>
-<dataEntry offset="237" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="316" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="355" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="417" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="448" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="479" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="518" parentId="globals" symbolId="WinterpokalView" type="class"/>
+<dataEntry offset="206" parentId="globals" symbolId="WinterpokalApp" type="class"/>
+<dataEntry offset="277" parentId="globals" symbolId="RunNoEvil" type="class"/>
+<dataEntry offset="388" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="467" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="506" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="537" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="568" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="599" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="630" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="685" parentId="globals" symbolId="WinterpokalViewTest" type="class"/>
+<dataEntry offset="780" parentId="globals" symbolId="WinterpokalView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
+<functionEntry accessMode="public" name="getTestObject">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="RunNoEvil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getIndexOf" parent="RunNoEvil">
+<param id="name"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTestName" parent="RunNoEvil">
+<param id="id"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getNumberOfTests" parent="RunNoEvil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="populate_test_entries_0_to_6" parent="RunNoEvil">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="evaluate_test_entries_0_to_6" parent="RunNoEvil">
+<param id="id"/>
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="runTest" parent="RunNoEvil">
+<param id="test"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WinterpokalView">
 <documentation/>
 </functionEntry>
@@ -91,6 +266,30 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="getMinutesPerPoint" parent="WinterpokalView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_CurrentDateBeforeWpTime_ExpectsSummertime" parent="WinterpokalViewTest">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_CurrentDateAfterWpTime_ExpectsSummertime" parent="WinterpokalViewTest">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_ElapsedTimeIsNullOrZero_ExpectsDash" parent="WinterpokalViewTest">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_ElapsedTimeIs15Minutes_Expects1Point" parent="WinterpokalViewTest">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_ElapsedTimeIs120Minutes_Expects8Points" parent="WinterpokalViewTest">
+<param id="logger"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute_ElapsedTimeIs14Minutes59Seconds_Expects0Points" parent="WinterpokalViewTest">
+<param id="logger"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WinterpokalApp">
