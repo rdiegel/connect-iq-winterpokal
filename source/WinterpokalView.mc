@@ -26,15 +26,15 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 		{
 			if (info.elapsedTime > 0) {
 				if (self.isAlternativeSport) {
-					return 2;
+					return "2 pt";
 				} else {
 					var minutes = info.elapsedTime / 60000;
 					var wpPoints = minutes / self.minutesPerPoint;
 					
-					return wpPoints;
+					return wpPoints + " pt";
 				}
 			}
-	        return "-";
+	        return "-- pt";
         }  else {
         	return WatchUi.loadResource(Rez.Strings.NotWpTime);
         }
