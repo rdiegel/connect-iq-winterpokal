@@ -11,7 +11,7 @@ class WinterpokalView extends WatchUi.SimpleDataField {
     // Set the label of the data field and initialize basic options
     function initialize() {
         SimpleDataField.initialize();
-      
+              
         label = WatchUi.loadResource(Rez.Strings.FieldTitle);
  	 	initMinutesPerPoint();
         checkWinterpokalTime();
@@ -26,15 +26,15 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 		{
 			if (info.timerTime != null && info.timerTime > 0) {
 				if (self.isAlternativeSport) {
-					return "2 pt";
+					return 2;
 				} else {
 					var minutes = info.timerTime / 60000;
 					var wpPoints = minutes / self.minutesPerPoint;
 					
-					return wpPoints + " pt";
+					return wpPoints;
 				}
 			}
-	        return "-- pt";
+	        return "--";
         }  else {
         	return WatchUi.loadResource(Rez.Strings.NotWpTime);
         }
