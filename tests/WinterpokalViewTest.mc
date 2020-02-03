@@ -25,7 +25,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = 0;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "-- pt");
+		Test.assertEqual(result, "--");
 		return true;
 	}
 	
@@ -39,7 +39,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = 15 * 60 * 1000;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "1 pt");
+		Test.assertEqual(result, 1);
 		return true;
 	}
 	
@@ -53,7 +53,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = 120 * 60 * 1000;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "8 pt");
+		Test.assertEqual(result, 8);
 		return true;
 	}
 	
@@ -67,7 +67,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = 120 * 60 * 1000;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "6 pt");
+		Test.assertEqual(result, 6);
 		return true;
 	}
 	
@@ -81,7 +81,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = (15 * 60 * 1000) - 1;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "0 pt");
+		Test.assertEqual(result, 0);
 		return true;
 	}
 	
@@ -94,7 +94,7 @@ class WinterpokalViewTest {
 		var testActivity = new Activity.Info();
 		testActivity.timerTime = 5 * 60 * 1000;
 		var result = subject.compute(testActivity);
-		Test.assertEqual(result, "2 pt");
+		Test.assertEqual(result, 2);
 
 		return true;	
 	}
