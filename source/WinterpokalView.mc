@@ -6,7 +6,6 @@ class WinterpokalView extends WatchUi.SimpleDataField {
 
 	protected var minutesPerPoint = 15;
 	protected var isAlternativeSport = false;
-	protected var itsWinterpokalTime = true;
 
     // Set the label of the data field and initialize basic options
     function initialize() {
@@ -14,7 +13,6 @@ class WinterpokalView extends WatchUi.SimpleDataField {
               
         label = WatchUi.loadResource(Rez.Strings.FieldTitle);
  	 	initMinutesPerPoint();
-        checkWinterpokalTime();
     }
 
     // The given info object contains all the current workout
@@ -22,37 +20,17 @@ class WinterpokalView extends WatchUi.SimpleDataField {
     // Note that compute() and onUpdate() are asynchronous, and there is no
     // guarantee that compute() will be called before onUpdate().
     function compute(info) {
-		if (self.itsWinterpokalTime)
-		{
-			if (info.timerTime != null && info.timerTime > 0) {
-				if (self.isAlternativeSport) {
-					return 2;
-				} else {
-					var minutes = info.timerTime / 60000;
-					var wpPoints = minutes / self.minutesPerPoint;
-					
-					return wpPoints;
-				}
+		if (info.timerTime != null && info.timerTime > 0) {
+			if (self.isAlternativeSport) {
+				return 2;
+			} else {
+				var minutes = info.timerTime / 60000;
+				var wpPoints = minutes / self.minutesPerPoint;
+				
+				return wpPoints;
 			}
-	        return "--";
-        }  else {
-        	return WatchUi.loadResource(Rez.Strings.NotWpTime);
-        }
-        
- 	 }
- 	 
- 	 // Ensure that the current date is part of the Winterpokal applicable timespan
- 	 function checkWinterpokalTime() {
-
- 	 	var today = new Time.Moment(Time.today().value());
-		var startDate = new Time.Moment(1572217200); // 28.10.2019 00:00:00
-		var endDate = new Time.Moment(1585519199); // 29.03.2020 23:59:59
-
-		if (today.greaterThan(startDate) && today.lessThan(endDate)) {
- 	 		self.itsWinterpokalTime = true;
- 	 	} else {
- 	 		self.itsWinterpokalTime = false;
- 	 	}
+		}
+        return "--";        
  	 }
  	 
  	 // Load the minutes that are necessary for 1 point depending on sports
